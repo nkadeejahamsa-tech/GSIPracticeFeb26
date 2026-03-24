@@ -1,7 +1,5 @@
-.metadata/
 .classpath
 .project
 .settings/
 bin/
-target/
 *.class
