@@ -4,13 +4,11 @@ import java.util.Arrays;
 
 public class Week3_Problem2_isSorted {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		int[] arr = { 500000, 780, 3, 11, 2 };
-		System.out.println(Arrays.toString(arr));
+	public static void isSorted(int[] arr) {
+//		System.out.println(Arrays.toString(arr));
 
 		int[] org_arr = arr.clone();
-		System.out.println(Arrays.toString(org_arr));
+//		System.out.println(Arrays.toString(org_arr));
 
 		int start = arr[0];
 		for (int j = 0; j < arr.length - 1; j++) {
@@ -27,6 +25,17 @@ public class Week3_Problem2_isSorted {
 
 			System.out.println(Arrays.toString(arr));
 		}
-
 	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[] a = { 500000, 1, 3, 11, 1 };
+
+//		isSorted(a);
+		Arrays.sort(a);
+		System.out.println(Arrays.toString(a));
+
+		
+	}
+
 }
