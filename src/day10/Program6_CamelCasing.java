@@ -9,6 +9,7 @@ public class Program6_CamelCasing {
 		// TODO Auto-generated method stub
 		String str = "today is friday ";
 		char[] arr = str.toCharArray();
+		System.out.println(Arrays.toString(arr));
 		for (int i = 0; i < arr.length; i++) {
 			if( (arr[i] == ' ')&&i+1<arr.length) {
 				arr[i + 1] = Character.toUpperCase(arr[i + 1]);
